@@ -20,7 +20,6 @@ interface Item {
     imageLinks: {
       thumbnail: string
     }
-  
   }
 
 const Books: React.FC = () => {
@@ -53,8 +52,6 @@ const Books: React.FC = () => {
   useEffect(() => {
     setStartIndex(0)
   }, [query])
-
-
 
     return (
         <MainContainer>

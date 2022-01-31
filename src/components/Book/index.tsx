@@ -1,5 +1,4 @@
 import { Title, Author, Publisher, Description } from './styles';
-import api from '../../services/AdonisApi'
   
 export function Book({item}: any) {
 

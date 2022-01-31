@@ -1,5 +1,4 @@
 import { Container, NavUl, NavLi, NaviLink } from './styles'
-import { Link } from 'react-router-dom'
 
 export function NavBar() {
     return (

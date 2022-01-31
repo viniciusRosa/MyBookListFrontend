@@ -1,4 +1,3 @@
-import React, { useState, useEffect } from 'react';
 import { Book } from '../Book';
 import { ULList, LIList, FavoriteButton } from './styles';
 import api from '../../services/AdonisApi'
@@ -22,12 +21,9 @@ export interface IBook {
   imageLinks: {
     thumbnail: string
   }
-
 }
 
 export function BookList(props: BookListProps) {
-
-
 
   async function sendToFavorite(item: Item) {
     const id = item.id;
@@ -54,7 +50,6 @@ export function BookList(props: BookListProps) {
       console.log(err);
     }
   }
-
 
   return (
     <ULList>

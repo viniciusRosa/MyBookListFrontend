@@ -14,7 +14,6 @@ const Favorites: React.FC = () => {
   const [startIndex, setStartIndex] = useState(0)
   const [reload, setReload] = useState(false)
 
-
   useEffect(() => {
 
     async function loadFavoriteBooks() {

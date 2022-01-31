@@ -3,7 +3,6 @@ import { ULList, LIList, FavoriteButton, SideDiv, DateDiv } from './styles';
 import api from '../../services/AdonisApi'
 import { format, parseISO } from 'date-fns'
 
-
 interface BookListProps {
   list: FavoriteBooks[]
   setReload: any 
@@ -18,7 +17,6 @@ interface FavoriteBooks {
   imagelinks: string;
   created_at: string;
 }
-
 
 export function FavoriteBooks(props: BookListProps) {
 
@@ -57,7 +55,6 @@ export function FavoriteBooks(props: BookListProps) {
               </LIList>
             )
           })}
-
     </ULList>
   )
 }
